@@ -13,7 +13,7 @@ import LogoFooter from "./LogoFooter";
 
 export default function Footer() {
   return (
-    <footer className="pt-[180px]">
+    <footer className="pt-[180px] mb-12">
       <Container>
         <div className="flex justify-between">
           <div className="w-[290px]">
@@ -25,9 +25,9 @@ export default function Footer() {
             </p>
           </div>
           <ItemFooter title="Perusahaan">
-            <ul className="mt-6 space-y-2">
+            <ul className="mt-8 space-y-4">
               <li>
-                <LinkFooter href="/">Tenatang Kami</LinkFooter>
+                <LinkFooter href="/">Tentang Kami</LinkFooter>
               </li>
               <li>
                 <LinkFooter href="/">Hubungi Kami</LinkFooter>
@@ -44,7 +44,7 @@ export default function Footer() {
             </ul>
           </ItemFooter>
           <ItemFooter title="Dapatkan Bantuan">
-            <ul className="mt-6 space-y-2">
+            <ul className="mt-8 space-y-4">
               <li>
                 <LinkFooter href="/">FAQ</LinkFooter>
               </li>
@@ -57,9 +57,9 @@ export default function Footer() {
             </ul>
           </ItemFooter>
           <ItemFooter title="Lainnya">
-            <ul className="mt-6 space-y-2">
+            <ul className="mt-8 space-y-4">
               <li>
-                <LinkFooter href="/">Tukar Hadiah</LinkFooter>
+                <LinkFooter href="/">Tukar Kartu Hadiah</LinkFooter>
               </li>
               <li>
                 <LinkFooter href="/">Netflix Original</LinkFooter>
@@ -70,7 +70,7 @@ export default function Footer() {
             </ul>
           </ItemFooter>
           <ItemFooter title="Dapatkan Aplikasi Kami">
-            <div className="flex gap-4 mt-6">
+            <div className="flex gap-4 mt-8">
               <Link href={"/"}>
                 <Image src={AppStore} alt="AppStore" />
               </Link>
